@@ -7,3 +7,5 @@ Frontend with Bootstrap. Backend with PHP and MySQL database. Responsive design.
 
 From the Udemy tutorial The Complete Web Developer Course - Build 14 Websites
 
+Project from late 2014.
+
