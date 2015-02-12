@@ -1,0 +1,134 @@
+	html, body {
+		margin: 0;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+
+		text-transform: uppercase;
+   		font-weight: bold;
+		color: #333;
+	}
+	
+	.navbar {
+	    background-color: #ffffff;
+		border: none;
+		margin-bottom: 0px;
+	} 
+
+	.navbar-default .navbar-nav>li>a:hover {
+
+		border-bottom: 3px solid;
+		padding-bottom: 12px;
+		color: #d9534f;
+	}
+	
+	.mainContainer {
+			background-image:url('http://www.sandralundgren.com/mysql/images/vintage.jpg');
+			height:100%;
+			width:100%;
+			background-size:cover;
+			background-position:center;
+			padding-top:70px;
+			text-align: center;
+	}
+	
+	.shadow {
+	
+		-moz-box-shadow: 0 6px 3px 0px rgba(0, 0, 0, 0.08);
+		-webkit-box-shadow: 0 6px 3px 0px rgba(0, 0, 0, 0.08);
+		box-shadow: 0 6px 3px 0px rgba(0, 0, 0, 0.08);
+		z-index: 999999;
+	}
+
+	.jumbotron {
+
+		background: url('../images/blur3.jpg'); no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		text-align: center;
+	}
+
+	#alphaDiv {
+		margin-top: 4.6em
+	}
+
+	h1 {
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 600;
+		font-size: 5em;
+		padding-bottom: 20px;
+	}
+
+	.lead {
+
+		margin-top: 80px;
+	}
+	
+	#description {
+	
+		margin-top: 1.6em;
+		
+	}
+
+	#biggerButton {
+        font-size: 22px; 
+		margin-top: 1em;	
+
+	}
+	
+	.btn-danger {
+
+		margin: 20px;
+	}
+	
+	#registrationForm {
+	
+		margin-top: 3em;
+		margin-bottom: 1.2em;	
+	}
+	
+	.form-control {
+		margin-bottom: 0.8%
+	}
+
+	.row {
+
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	
+	.title {
+
+		text-transform: uppercase;
+		font-weight: bold; 
+		padding-top: 10px;
+	}
+
+	.rightAlign {
+
+		text-align: right; 
+	}
+	
+	
+	@media only screen 
+		and (min-device-width : 320px) 
+		and (max-device-width : 480px), 
+	@media only screen 
+		and (min-device-width : 320px) 
+		and (max-device-width : 568px) {
+
+		h1 {
+			font-size: 3em;
+		}
+		
+		#alphaDiv {
+			margin-top: 0.6em
+		}
+	}
+
+
+
+
+	
